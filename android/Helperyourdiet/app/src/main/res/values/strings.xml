@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Helper your diet</string>
+    <string name="breakfastStr">첫끼</string>
+    <string name="lunchStr">두끼</string>
+    <string name="dinnerStr">셋끼</string>
+
+</resources>

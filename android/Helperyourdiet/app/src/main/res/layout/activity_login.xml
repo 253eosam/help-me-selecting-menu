@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/colorWhite"
+    tools:context="com.example.dhzm2.helperyourdiet.LoginActivity">
+
+    <TextView
+        android:paddingTop="50dp"
+        android:layout_width="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_height="wrap_content"
+        android:text="도우미 세끼"
+        android:textSize="50dp"
+        android:textStyle="bold"
+        android:textColor="@android:color/black"
+        />
+
+    <EditText
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="2dp"
+        android:id="@+id/loginIDEditText"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:layout_gravity="center_horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="아이디"
+        android:background="@drawable/edittext_light_green_input_shape"
+        />
+    <EditText
+        android:id="@+id/loginPasswordEditText"
+        android:ems="10"
+        android:inputType="textPassword"
+        android:layout_gravity="center_horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="비밀번호"
+        android:background="@drawable/edittext_light_green_input_shape"
+        android:layout_marginBottom="20dp"
+        />
+    <Button
+        android:id="@+id/loginButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="로그인"
+        android:layout_gravity="center_horizontal"
+        android:background="@drawable/edittext_white_shape"
+        />
+    <TextView
+        android:layout_marginTop="5dp"
+        android:id="@+id/registerUserButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="회원가입"
+        android:layout_gravity="center_horizontal"
+        android:textSize="11dp"
+        />
+    <LinearLayout
+        android:layout_marginTop="50dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/salad"
+        />
+
+</LinearLayout>

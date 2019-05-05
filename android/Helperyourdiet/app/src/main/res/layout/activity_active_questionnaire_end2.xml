@@ -1,0 +1,256 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/pattern_green"
+    android:orientation="vertical"
+    tools:context="com.example.dhzm2.helperyourdiet.RegisterUserActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:layout_margin="40dp">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/edittext_white_shape"
+        android:orientation="vertical"
+        android:padding="20dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginBottom="40dp"
+            android:layout_marginTop="20dp"
+            android:text="기타 설문"
+            android:textSize="25dp"
+            android:textStyle="bold"
+            />
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_marginRight="5dp"
+            android:text="3) 음식취향"
+            android:textSize="15dp" />
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_gravity="left">
+
+                <CheckBox
+                    android:id="@+id/tasteGrainCheckBox"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="곡류" />
+
+                <CheckBox
+                    android:id="@+id/tasteFruitsCheckBox"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="과일류" />
+
+                <CheckBox
+                    android:id="@+id/tasteRoastCheckBox"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="구이류" />
+
+                <CheckBox
+                    android:id="@+id/tasteSoupCheckBox"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="국 및 탕류" />
+
+                <CheckBox
+                    android:id="@+id/tasteKimchiCheckBox"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="김치류" />
+
+                <CheckBox
+                    android:id="@+id/tasteHerbSeedCheckBox"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="나물/숙채류" />
+
+                <CheckBox
+                    android:id="@+id/tasteSugarsCheckBox"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="당류" />
+
+                <CheckBox
+                    android:id="@+id/tasteDriedBeansNutCheckBox"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="두류, 견과류" />
+
+                <CheckBox
+                    android:id="@+id/tasteCottonDumplingCheckBox"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="면 및 만두류" />
+                <CheckBox
+                    android:id="@+id/tastePicklesCheckBox"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="장아찌/절임류" />
+                <CheckBox
+                    android:id="@+id/tasteInfluenceCheckBox"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="전/적 및 부침류" />
+                <CheckBox
+                    android:id="@+id/tasteSaltedFishCheckBox"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="젓갈류" />
+                <CheckBox
+                    android:id="@+id/tasteGroatsCheckBox"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="조림류" />
+                <CheckBox
+                    android:id="@+id/tastePorridgeCheckBox"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="죽 및 스프류" />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_gravity="center_horizontal">
+
+                <CheckBox
+                    android:id="@+id/tasteRiceCheckBox"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="밥류" />
+
+                <CheckBox
+                    android:id="@+id/tasteRoastingCheckBox"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="볶음류" />
+
+                <CheckBox
+                    android:id="@+id/tasteSnackBarCheckBox"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="분식" />
+
+                <CheckBox
+                    android:id="@+id/tasteBreadCheckBox"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="빵 및 과자류" />
+
+                <CheckBox
+                    android:id="@+id/tasteRawCheckBox"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="생채/무침류" />
+
+                <CheckBox
+                    android:id="@+id/tasteFishCheckBox"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="수조어육류" />
+
+                <CheckBox
+                    android:id="@+id/tasteIceCheckBox"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="아이스크림" />
+
+                <CheckBox
+                    android:id="@+id/tasteDairyCheckBox"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="유제품류 및 빙과류" />
+
+                <CheckBox
+                    android:id="@+id/tasteBeverageCheckBox"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="음료" />
+                <CheckBox
+                    android:id="@+id/tasteStewCheckBox"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="찌개 및 전골류" />
+                <CheckBox
+                    android:id="@+id/tasteSteamCheckBox"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="찜류" />
+                <CheckBox
+                    android:id="@+id/tasteVegetablesCheckBox"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="채소, 해조류" />
+                <CheckBox
+                    android:id="@+id/tasteFriedCheckBox"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="튀김류" />
+                <CheckBox
+                    android:id="@+id/tastePizzaCheckBox"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="피자" />
+                <CheckBox
+                    android:id="@+id/tasteHamburgerCheckBox"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="햄버거" />
+            </LinearLayout>
+
+        </LinearLayout>
+
+
+
+
+
+    </LinearLayout>
+
+    </ScrollView>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/beforeButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="이전" />
+
+            <Button
+                android:id="@+id/finishButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="완료" />
+        </LinearLayout>
+
+    </RelativeLayout>
+</LinearLayout>
