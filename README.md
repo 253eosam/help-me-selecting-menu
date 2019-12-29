@@ -12,9 +12,9 @@
 
 ------
 
-`Client` : Android repository
+`Client` : Android
 
-`Server` : JSP repository
+`Server` : Java
 
 ### 기술 스택
 
